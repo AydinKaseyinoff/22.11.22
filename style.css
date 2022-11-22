@@ -17,6 +17,7 @@
   box-shadow:  0 0 20px;
   border-radius: 10px;
   background-color: #77819C;
+  flex: 1 1 auto;
   padding: 10px;
   padding-left: 40px;
   margin-top: 20px;
@@ -33,7 +34,7 @@
 }
 .navbox a:hover{
   background-color: #3771FF;
-  padding: 10px;
+  padding: 20px;
 }
 .navbox li{
   list-style-type: none;
@@ -43,4 +44,8 @@
   border-radius: 10px;
   background-color: #3771FF;
   margin-top: 20px;
+  transition: all 700ms;
+}
+.contentbox:hover{
+  padding: 50px;
 }
